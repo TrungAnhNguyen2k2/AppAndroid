@@ -33,7 +33,7 @@ private Executor executor = Executors.newSingleThreadExecutor();
         @Override
         public void run() {
             try {
-                String webhookUrl = "https://13a9-118-68-122-101.ngrok-free.app";
+                String webhookUrl = "https://13a9-118-68-122-101.ngrok-free.app"; // thay đổi đường dẫn ở đây tùy thuộc vào URL của ngrok
                 // Tạo đối tượng URL từ đường dẫn URL
                 URL url = new URL(webhookUrl);
                 // Mở kết nối HTTP
